@@ -60,7 +60,6 @@
     } 
 }
 
-#pragma mark auto called functions
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response{
     [receivedData setLength:0]; 
     
